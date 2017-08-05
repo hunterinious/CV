@@ -392,6 +392,11 @@ legend {
   padding: 0; /* 2 */
 }
 
+/** li and p font size */
+li { font-size: 18px; }
+
+p { font-size: 18px; }
+
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
