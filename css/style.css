@@ -5,3 +5,18 @@
   height: 400px;
   float: right;
 }
+
+.proj-exp {
+  margin-left: 20px;
+}
+
+.wrapper {
+  max-width: inherit;
+  height: 2px;
+  background-color: #20B2AA;
+}
+
+
+.container {
+  margin-left: 150px;
+}
