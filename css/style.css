@@ -44,6 +44,7 @@
 
 .image {
   grid-area: image;
+  margin-top: 23px;
 }
 
 @media (max-width: 1080px) {
