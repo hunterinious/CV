@@ -1,10 +1,12 @@
 .personal-photo {
   position: relative;
   z-index: 2;
-  width: 300px;
-  height: 400px;
+  width: 700px;
+  height: 450px;
   float: right;
-  margin-right: 75px;
+  margin-left: 75px;
+  transform: rotate(90deg);
+
 }
 
 .proj-exp {
