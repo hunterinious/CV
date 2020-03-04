@@ -59,12 +59,14 @@
 
   .image {
     margin-bottom: 135px;
+    margin-left: -122px;
   }
 
 
 }
 
 @media (max-width: 1440px) {
+
   .proj-date {
     float: none;
   }
