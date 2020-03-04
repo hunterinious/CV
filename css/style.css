@@ -1,10 +1,11 @@
 .personal-photo {
-  position: relative;
-  z-index: 2;
-  width: 700px;
-  height: 450px;
-  float: right;
+ /* position: relative;
+  z-index: 2;*/
+  width: 590px;
+  height: 335px;
+  /*float: right;
   margin-left: 75px;
+  margin-top: 25px;*/
   transform: rotate(90deg);
 
 }
@@ -28,14 +29,22 @@
   background-color: #20B2AA;
 }
 
-
 .container {
-  position: relative;
+  display: grid;
+  grid-template-areas: "data image";
+  grid-template-columns: 10fr 2fr;
   width: 100%;
-  max-width: 960px;
   margin-left: 75px;
   padding: 0 20px;
   box-sizing: border-box;
+}
+
+.data {
+  grid-area: data;
+}
+
+.image {
+  grid-area: image;
 }
 
 
