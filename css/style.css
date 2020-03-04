@@ -32,7 +32,6 @@
 .container {
   display: grid;
   grid-template-areas: "data image";
-  grid-template-columns: 10fr 2fr;
   width: 100%;
   margin-left: 75px;
   padding: 0 20px;
@@ -46,6 +45,36 @@
 .image {
   grid-area: image;
 }
+
+@media (max-width: 1080px) {
+  .container {
+    display: grid;
+    grid-template-areas: "image"
+                         "data";
+    grid-template-columns: 12fr;
+    margin-left: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .image {
+    margin-bottom: 135px;
+  }
+
+
+}
+
+@media (max-width: 1440px) {
+  .proj-date {
+    float: none;
+  }
+
+  .proj-date,
+  .proj-link {
+    display: block;
+  }
+}
+
 
 
 
