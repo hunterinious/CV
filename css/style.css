@@ -1,3 +1,16 @@
+.h-projects {
+  color: #20B2AA;
+}
+
+.skills-item1,
+.skills-item2 {
+  display: inline-block;
+}
+
+.skills-item2 {
+  margin-left: 15px;
+}
+
 .personal-photo {
  /* position: relative;
   z-index: 2;*/
@@ -21,6 +34,7 @@
 
 .proj-date {
   float: right;
+ /* margin-bottom: 10px;*/
 }
 
 .wrapper-line {
@@ -34,7 +48,7 @@
   grid-template-areas: "data image";
   width: 100%;
   margin-left: 75px;
-  padding: 0 20px;
+  padding: 0 10px;
   box-sizing: border-box;
 }
 
