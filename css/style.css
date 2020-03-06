@@ -16,9 +16,8 @@
   z-index: 2;*/
   width: 590px;
   height: 335px;
-  /*float: right;
-  margin-left: 75px;
-  margin-top: 25px;*/
+  float: right;
+  /*margin-left: 75px;*/
   transform: rotate(90deg);
 
 }
@@ -58,7 +57,7 @@
 
 .image {
   grid-area: image;
-  margin-top: 23px;
+  margin-top: 135px;
 }
 
 @media (max-width: 1080px) {
