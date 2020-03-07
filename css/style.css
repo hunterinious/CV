@@ -2,15 +2,6 @@
   color: #20B2AA;
 }
 
-.skills-item1,
-.skills-item2 {
-  display: inline-block;
-}
-
-.skills-item2 {
-  margin-left: 15px;
-}
-
 .personal-photo {
  /* position: relative;
   z-index: 2;*/
@@ -59,40 +50,6 @@
   grid-area: image;
   margin-top: 135px;
 }
-
-@media (max-width: 1080px) {
-  .container {
-    display: grid;
-    grid-template-areas: "image"
-                         "data";
-    grid-template-columns: 12fr;
-    margin-left: 10px;
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
-
-  .image {
-    margin-bottom: 135px;
-    margin-left: -122px;
-  }
-
-
-}
-
-@media (max-width: 1440px) {
-
-  .proj-date {
-    float: none;
-  }
-
-  .proj-date,
-  .proj-link {
-    display: block;
-  }
-}
-
-
-
 
 a {
   color: #1EAEDB; }
@@ -165,3 +122,35 @@ p { font-size: 19px;
     margin-top: 1rem;
     text-align: justify;
  }
+
+
+@media (max-width: 1080px) {
+  .container {
+    display: grid;
+    grid-template-areas: "image"
+                         "data";
+    grid-template-columns: 12fr;
+    margin-left: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .image {
+    margin-bottom: 135px;
+    margin-left: -122px;
+  }
+
+
+}
+
+@media (max-width: 1440px) {
+
+  .proj-date {
+    float: none;
+  }
+
+  .proj-date,
+  .proj-link {
+    display: block;
+  }
+}
